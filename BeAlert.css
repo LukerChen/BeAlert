@@ -1,4 +1,4 @@
-.nf_dialog_overlay {
+.BeAlert_overlay {
     overflow: hidden;
     position: fixed;
     margin: 0;
@@ -12,7 +12,7 @@
     width: auto;
     height: auto;
 }
-.nf_dialog_box {
+.BeAlert_box {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -24,44 +24,44 @@
     font-size: 12px;
     text-align: center;
 }
-.nf_dialog_box .nf_dialog_image {
+.BeAlert_box .BeAlert_image {
     background: #fff;
     width: 60px;
     height: 60px;
     margin: 10px auto;
 }
-.nf_dialog_box .nf_dialog_image.warning {
+.BeAlert_box .BeAlert_image.warning {
     background: url("warning.png");
     background-size: 60px;
 }
-.nf_dialog_box .nf_dialog_image.error {
+.BeAlert_box .BeAlert_image.error {
     background: url("error.png");
     background-size: 60px;
 }
-.nf_dialog_box .nf_dialog_image.info {
+.BeAlert_box .BeAlert_image.info {
     background: url("info.png");
     background-size: 60px;
 }
-.nf_dialog_box .nf_dialog_image.question {
+.BeAlert_box .BeAlert_image.question {
     background: url("question.png");
     background-size: 60px;
 }
-.nf_dialog_box .nf_dialog_image.success {
+.BeAlert_box .BeAlert_image.success {
     background: url("success.png");
     background-size: 60px;
 }
-.nf_dialog_box .nf_dialog_title {
+.BeAlert_box .BeAlert_title {
     font-size: 20px;
     margin: 5px auto;
 }
-.nf_dialog_box .nf_dialog_message {
+.BeAlert_box .BeAlert_message {
     font-size: 14px;
     margin: 5px auto;
 }
-.nf_dialog_box .nf_dialog_button {
+.BeAlert_box .BeAlert_button {
     margin-top: 20px;
 }
-.nf_dialog_box .nf_dialog_button button {
+.BeAlert_box .BeAlert_button button {
     display: none;
     background-color: #8CD4F5;
     color: #fff;
@@ -76,12 +76,12 @@
     margin: 0 10px;
     outline: none;
 }
-.nf_dialog_box .nf_dialog_button button.nf_dialog_cancel {
+.BeAlert_box .BeAlert_button button.BeAlert_cancel {
     background-color: #c1c1c1;
 }
-.nf_dialog_box .nf_dialog_button button.nf_dialog_cancel:hover {
+.BeAlert_box .BeAlert_button button.BeAlert_cancel:hover {
     background-color: #b9b9b9;
 }
-.nf_dialog_box .nf_dialog_button button.nf_dialog_confirm:hover {
+.BeAlert_box .BeAlert_button button.BeAlert_confirm:hover {
     background-color: #86CCEB;
 }
