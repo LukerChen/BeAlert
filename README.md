@@ -81,3 +81,7 @@
     });
 </script>
 ```
+![](https://github.com/luker2013/BeAlert/blob/master/alert.png)
+<br>
+![](https://github.com/luker2013/BeAlert/blob/master/confirm.png)
+
