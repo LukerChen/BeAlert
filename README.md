@@ -17,7 +17,7 @@
  ```javascript
  alert(title,message,callback,config);
  ```
- ```javascript
+ ```
  confirm(title,message,callback,config);
  ```
 # Settings
@@ -60,10 +60,28 @@
     </tr>
     </tbody>
 </table>
- ```javascript
- confirm(title,message,callback,config);
- ```
+
 # Example
+```
+<script type="text/javascript">
+    $(function () {
+        $("#alert").click(function () {
+            alert("Hello world!", "welcome to my world :)", function () {
+                //after click the confirm button, will run this callback function
+            }, {type: 'success', confirmButtonText: 'OK'});
+        });
+        $("#confirm").click(function () {
+            confirm("Are you sure?", "You will not be able to recover this imaginary file!", function (isConfirm) {
+                if (isConfirm) {
+                    //after click the confirm
+                } else {
+                    //after click the cancel
+                }
+            }, {confirmButtonText: 'Yes, delete it!', cancelButtonText: 'No, cancel plx!', width: 400});
+        });
+    });
+</script>
+```
 ![图片](https://github.com/luker2013/BeAlert/blob/master/alert.png)
 <br>
 ![图片](https://github.com/luker2013/BeAlert/blob/master/confirm.png)
